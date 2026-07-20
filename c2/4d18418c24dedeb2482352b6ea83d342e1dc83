@@ -1,0 +1,60 @@
+.github/pr-reset-note.txt
+  s_5da29477f3d7dd::t_91bfcf1f4bf5dd 1 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a5da176c8b26c48318fd1d4","tool_type":"agent","tool_id":"apply_patch","line_ranges":[{"Single":1}]}]}
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "c24d18418c24dedeb2482352b6ea83d342e1dc83",
+  "prompts": {},
+  "sessions": {
+    "s_5da29477f3d7dd": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a57b180c8b26c48318fb09a",
+        "model": "gpt-5.5__dev"
+      },
+      "human_author": "zhangyingqi.ykup <zhangyingqi.ykup@bytedance.com>"
+    }
+  },
+  "attestation_metadata": {
+    ".github/pr-reset-note.txt": [
+      {
+        "hash": "s_5da29477f3d7dd::t_91bfcf1f4bf5dd",
+        "line_ranges": [
+          {
+            "Single": 1
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a5da176c8b26c48318fd1d4",
+            "tool_type": "agent",
+            "tool_id": "apply_patch",
+            "line_ranges": [
+              {
+                "Single": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "remote_transcripts": {
+    "s_5da29477f3d7dd": {
+      "tool": "trae",
+      "conversation_id": "6a57b180c8b26c48318fb09a",
+      "session_id": "6a57b180c8b26c48318fb09a",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    },
+    "s_5da29477f3d7dd::t_91bfcf1f4bf5dd": {
+      "tool": "trae",
+      "conversation_id": "6a57b180c8b26c48318fb09a",
+      "session_id": "6a57b180c8b26c48318fb09a",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    }
+  }
+}
